@@ -15,7 +15,10 @@ Warhammer 40,000: 8th Edition
 * [Overview][]
 * [Links][]
 
+[Important]: #important
+
 ## Important ##
+[Important]: #important
 
 ### This repo is no longer maintained. Current edition data is in [wh40k repo](https://github.com/BSData/wh40k) ###
 
