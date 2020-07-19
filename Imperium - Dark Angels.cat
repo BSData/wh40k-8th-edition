@@ -17605,7 +17605,7 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
     </infoGroup>
   </sharedInfoGroups>
   <catalogueLinks>
-    <catalogueLink id="a18c-2ee5-7f5e-a157" name="Imperium - FW Adeptus Astartes" targetId="dab7-e076-dd5e-d8aa" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a18c-2ee5-7f5e-a157" name="Imperium - FW Adeptus Astartes" targetId="2f48-7854-3ae0-c1d6" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="f197-e166-2605-a400" name="Imperium - Inquisition" targetId="2488-8077-e80e-0039" type="catalogue" importRootEntries="false"/>
     <catalogueLink id="3f25-335d-c33d-e4bb" name="Imperium - Officio Assassinorum" targetId="9232-0787-e942-91c5" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>

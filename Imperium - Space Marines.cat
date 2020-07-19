@@ -24530,6 +24530,6 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="48c4-aeea-fb8a-5c12" name="Imperium - FW Adeptus Astartes" targetId="dab7-e076-dd5e-d8aa" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="48c4-aeea-fb8a-5c12" name="Imperium - FW Adeptus Astartes" targetId="2f48-7854-3ae0-c1d6" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
