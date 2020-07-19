@@ -1,18 +1,23 @@
-Template Data Repo
+Warhammer 40,000: 8th Edition
 ==================
 
-[![GitHub release](https://img.shields.io/github/release/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/releases/latest)
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/TemplateDataRepo/latest.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/releases)
-[![Open Bug issues](https://img.shields.io/github/issues/BSData/TemplateDataRepo/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/TemplateDataRepo/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![GitHub contributors](https://img.shields.io/github/contributors/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/graphs/contributors)
-[![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/pulse/monthly)
+[![GitHub release](https://img.shields.io/github/release/BSData/wh40k-8th-edition.svg?style=flat-square)](https://github.com/BSData/wh40k-8th-edition/releases/latest)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/wh40k-8th-edition/latest.svg?style=flat-square)](https://github.com/BSData/wh40k-8th-edition/releases)
+[![Open Bug issues](https://img.shields.io/github/issues/BSData/wh40k-8th-edition/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/wh40k-8th-edition/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![GitHub contributors](https://img.shields.io/github/contributors/BSData/wh40k-8th-edition.svg?style=flat-square)](https://github.com/BSData/wh40k-8th-edition/graphs/contributors)
+[![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/wh40k-8th-edition.svg?style=flat-square)](https://github.com/BSData/wh40k-8th-edition/pulse/monthly)
 
 [![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://discord.gg/KqPVhds)
 
 #### Contents ####
 
+* [Important][]
 * [Overview][]
 * [Links][]
+
+## Important ##
+
+### This repo is no longer maintained. Current edition data is in [wh40k repo](https://github.com/BSData/wh40k) ###
 
 ## Overview ##
 [Overview]: #overview
@@ -42,8 +47,8 @@ Great, thank you! Now, you have some options:
 * [BattleScribe Data on Appspot][]
 * [Getting Started wiki][]
 
-[Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/TemplateDataRepo
-[Open Issue directly]: https://github.com/BSData/TemplateDataRepo/issues
+[Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/wh40k-8th-edition
+[Open Issue directly]: https://github.com/BSData/wh40k-8th-edition/issues
 [BattleScribe homepage]: http://www.battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started#contributing
