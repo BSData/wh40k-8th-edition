@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" revision="136" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="5335-9d49-c85e-4817" gameSystemRevision="128" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a055-7a77-028e-ea5a" name="Chaos - Chaos Space Marines" revision="136" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="5335-9d49-c85e-4817" gameSystemRevision="130" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="cb54-c035-pubN85174" name="Escalation"/>
     <publication id="cb54-c035-pubN125652" name="Codex: Heretic Astartes - Chaos Space Marines"/>
@@ -3054,6 +3054,11 @@ If your summoning roll included any doubles, your character then suffers a morta
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5aed-5e25-e08d-f764" name="Surgeon Acolyte" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -3081,6 +3086,8 @@ If your summoning roll included any doubles, your character then suffers a morta
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -14782,6 +14789,8 @@ If your summoning roll included any doubles, your character then suffers a morta
       </constraints>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -15949,6 +15958,11 @@ If your summoning roll included any doubles, your character then suffers a morta
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -17304,6 +17318,11 @@ units whilst their unit is within 6&quot; of this model.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d29a-b350-1c8f-47b9" name="Hyper-growth Bolts" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -17316,6 +17335,11 @@ units whilst their unit is within 6&quot; of this model.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="44c5-9ff6-f98d-78ee" name="Living Carapace" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -17328,6 +17352,11 @@ units whilst their unit is within 6&quot; of this model.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -19642,6 +19671,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0672-daa3-54ff-9bb9" name="The Master&apos;s Hound" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -19651,6 +19685,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e235-ce87-eb17-0613" name="Ravenous Biology" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -19660,6 +19699,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -19977,6 +20021,6 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
     </infoGroup>
   </sharedInfoGroups>
   <catalogueLinks>
-    <catalogueLink id="52c8-0d45-fb87-0d1f" name="Chaos - FW Heretic Astartes" targetId="2128-f196-8f1c-b352" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="52c8-0d45-fb87-0d1f" name="Chaos - FW Heretic Astartes" targetId="3ac8-fc78-f804-e41a" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

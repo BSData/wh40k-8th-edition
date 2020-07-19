@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" revision="86" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="5335-9d49-c85e-4817" gameSystemRevision="130" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8367-57f3-1094-0a16" name="Chaos - Death Guard" revision="86" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="5335-9d49-c85e-4817" gameSystemRevision="130" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ce57-cc1c-pubN85391" name="Index: Chaos FAQ"/>
     <publication id="ce57-cc1c-pubN108736" name="Codex: Heretic Astartes - Death Guard"/>
@@ -9497,6 +9497,8 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
       </profiles>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -11025,6 +11027,6 @@ If your summoning roll included any doubles, your character then suffers a morta
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="769d-751a-9765-b4da" name="Chaos - FW Heretic Astartes" targetId="2128-f196-8f1c-b352" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="769d-751a-9765-b4da" name="Chaos - FW Heretic Astartes" targetId="3ac8-fc78-f804-e41a" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
