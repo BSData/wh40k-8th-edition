@@ -540,6 +540,6 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="215f-abf9-a7c1-7de4" name="Imperium - Officio Assassinorum" targetId="f731-6aa6-c141-8937" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="215f-abf9-a7c1-7de4" name="Imperium - Officio Assassinorum" targetId="9232-0787-e942-91c5" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
