@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a008-1eeb-8c4e-96b7" name="Imperium - Sisters of Silence" revision="14" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @_alphalas" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="129" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="a008-1eeb-pubN69744" name="Codex: Space Marines"/>
+  </publications>
+  <categoryEntries>
+    <categoryEntry id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites" hidden="false"/>
+    <categoryEntry id="be18-af79-8c70-633f" name="Faction: Astra Telepathica" hidden="false"/>
+    <categoryEntry id="8bcf-a0bd-54ad-9531" name="Faction: Sisters of Silence" hidden="false"/>
+    <categoryEntry id="8f2a-01c6-005f-1866" name="Witchseekers" hidden="false"/>
+    <categoryEntry id="8b48-20db-5b9b-5fd7" name="Null-Maiden Rhino" hidden="false"/>
+    <categoryEntry id="dd65-0ed5-6aa3-0f9f" name="Vigilators" hidden="false"/>
+    <categoryEntry id="4b0b-94bb-a2de-73d3" name="Prosecutors" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="0383-bad5-390e-4cca" name="Vanguard Detachment" hidden="false">
+      <forceEntries>
+        <forceEntry id="ff3a-fba8-4f66-fe7e" name="Vanguard Detachment" hidden="false">
+          <categoryLinks>
+            <categoryLink id="252f-c1ff-8221-7ded" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="1771-dd1b-11e6-43d0" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="7fd7-8b99-ac88-8069" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="42fe-6cd3-da91-11fb" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="54c6-9e68-2d64-6bb4" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="bf72-ed07-1fd4-c59c" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="035f-4885-38b3-62ad" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
+      <categoryLinks>
+        <categoryLink id="aa44-0720-c786-3f16" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="ef92-397a-e8ae-4247" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74a9-d419-0750-7fe7" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b806-0210-5b0a-e3e3" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1260-95a2-f111-3b36" type="min"/>
+            <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a39f-f0cc-48bc-cc14" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="54b7-18c3-0ff9-1788" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ad3-41d0-06b0-382f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="175e-846f-5fee-c0af" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c40-3b26-8398-b7a5" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5c63-ed0c-b241-53e8" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f52-4460-79c7-a575" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="78fe-c642-53cd-02c4" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+          <modifiers>
+            <modifier type="increment" field="ad3b-39d0-127d-22d7" value="1">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c274d0b0-5866-44bc-9810-91c136ae7438" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e888-1504-aa61-95ff" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad3b-39d0-127d-22d7" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="bf38-950d-c2fe-675e" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="40ac-0dab-737b-4ac1" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false"/>
+        <categoryLink id="6076-877b-5363-d98e" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="52cc-58c5-d85d-6f8d" name="Prosecutors" hidden="false" collective="false" import="true" targetId="4e40-4bc6-5bbb-7b98" type="selectionEntry"/>
+    <entryLink id="5994-9445-8e5b-b14c" name="Null-Maiden Rhino" hidden="false" collective="false" import="true" targetId="d233-0d52-7b70-1fdd" type="selectionEntry"/>
+    <entryLink id="49b0-ced5-73bc-d24b" name="Vigilators" hidden="false" collective="false" import="true" targetId="7392-e278-494b-8b66" type="selectionEntry"/>
+    <entryLink id="b669-5c7b-1e8a-e3d1" name="Witchseekers" hidden="false" collective="false" import="true" targetId="7ce8-5cff-cc35-753d" type="selectionEntry"/>
+    <entryLink id="38d7-9aa5-e674-269d" name="Inquisitor Greyfax" hidden="false" collective="false" import="true" targetId="9d0c-6df4-8f5d-5a34" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a0e5-3dac-ea93-4312" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0107-4322-ddde-a258" name="Inquisitor Coteaz" hidden="false" collective="false" import="true" targetId="81d1-1b5f-e97c-35ba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5f1b-96b4-0d8b-73f6" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="66d4-3355-049c-d5e6" name="Inquisitor Eisenhorn" hidden="false" collective="false" import="true" targetId="86b2-7c8b-a051-60ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="990e-55e5-1b3b-3325" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e628-8554-d1d3-fb39" name="Inquisitor" hidden="false" collective="false" import="true" targetId="0b13-8c12-cbea-300f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ffb4-138c-0b56-c7b2" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="72d9-221d-526e-5fc7" name="Inquisitor Karamazov" hidden="false" collective="false" import="true" targetId="59d5-160c-f21d-6e49" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6303-d853-f44e-0f10" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e31c-6486-7228-cb44" name="Inquisitor-Lord Hector Rex" hidden="false" collective="false" import="true" targetId="f34a-e3be-53b1-d783" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8606-4a27-fd6d-4a18" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d43f-f7ca-dc7c-8c05" name="Inquisitor-Lord Solomon Lok" hidden="false" collective="false" import="true" targetId="027b-c552-db2c-f5f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2056-661e-81bb-6730" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="64a4-b0ff-308f-2f24" name="Ordo Malleus Inquisitor in Terminator Armour" hidden="false" collective="false" import="true" targetId="ba53-1df7-404e-e9c9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ce95-f8b1-766a-ded9" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f76c-b05b-04be-2ab7" name="Lord Inquisitor Kyria Draxus" hidden="false" collective="false" import="true" targetId="132c-a00e-3b0b-5795" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0ab1-8861-196c-ed41" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1748-828a-22e9-3d53" name="Ephrael Stern and Kyganil of the Bloody Tears" hidden="false" collective="false" import="true" targetId="7dca-e055-7a15-4bf3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="928f-92a5-9bea-1e0e" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4e40-4bc6-5bbb-7b98" name="Prosecutors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3">
+          <conditions>
+            <condition field="selections" scope="4e40-4bc6-5bbb-7b98" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="129c-2c6a-a47f-fd78" name="Prosecution Protocols" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">“Models in this unit can target enemy CHARACTERSthat are PSYKERS, even if they are not the closest enemy unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8231-f4e8-3a05-3261" name="New InfoLink" hidden="false" targetId="68d7-b6a1-b037-6183" type="rule"/>
+        <infoLink id="5b1e-3106-1b7d-7993" name="New InfoLink" hidden="false" targetId="bbdc-1bda-2f32-9369" type="rule"/>
+        <infoLink id="4efd-4819-8919-1dc4" name="Null Maidens" hidden="false" targetId="1d9b-613f-0500-05ef" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ef5f-c184-738d-6cbc" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="cd19-1daa-0bcb-8e69" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
+        <categoryLink id="e298-eade-af3c-8832" name="Faction: Astra Telepathica" hidden="false" targetId="be18-af79-8c70-633f" primary="false"/>
+        <categoryLink id="0612-004b-2f9c-47f4" name="Faction: Sisters of Silence" hidden="false" targetId="8bcf-a0bd-54ad-9531" primary="false"/>
+        <categoryLink id="bf5f-fb67-19c7-9038" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="de24-b147-eb9d-f217" name="Prosecutors" hidden="false" targetId="4b0b-94bb-a2de-73d3" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1065-a44d-41ef-61bd" name="Prosecutor" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="18d6-1300-536e-feca" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b217-50d6-a479-cd02" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fa48-82b7-dd6e-11f0" name="Sister" hidden="false" targetId="51d5-499d-ed37-9100" type="profile">
+              <modifiers>
+                <modifier type="set" field="name" value="Prosecutor"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="2452-60bc-7b05-2639" name="Boltgun" hidden="false" collective="false" import="true" targetId="ca06-ac13-d02f-6f9a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7948-0b4d-2303-f5a0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa46-94ae-f5c4-9671" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="747c-48a7-7208-5991" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3e04-24a0-dada-2b39" name="Sister Superior" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f834-4bda-247d-068f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="703c-df6d-d43e-5576" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="21dc-f003-bbdc-4a1b" name="New InfoLink" hidden="false" targetId="a3b5-26be-117c-5dfa" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="3410-fcac-4e1f-ae0d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d70a-f2d4-8d12-5719" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1749-7a19-f0b4-76af" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="86a7-06fa-37b3-d53f" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="358a-e15b-58b5-0a65" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="3145-c26a-8d83-7c86" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d233-0d52-7b70-1fdd" name="Null-Maiden Rhino" page="0" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="05fb-55c1-c5d0-2453" name="Self-Repair" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your turn, if this model has lost any wounds, you can roll one D6; on a 6 thism odel regains 1 lost wound.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f921-0782-81b7-2577" name="Null-Maiden Rhino" publicationId="a008-1eeb-pubN69744" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 10 SISTERS OF SILENCE INFANTRY models.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="aefb-58d6-c136-217f" name="Null-Maiden Rhino" publicationId="a008-1eeb-pubN69744" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">*</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">10</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">*</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="abc6-7dfe-4533-443f" name="Null-Maiden Rhino 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+          <characteristics>
+            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-10</characteristic>
+            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">12&quot;</characteristic>
+            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
+            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="02da-e95f-db6f-30c1" name="Null-Maiden Rhino 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+          <characteristics>
+            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6&quot;</characteristic>
+            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
+            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7aea-7a1e-3922-8854" name="Null-Maiden Rhino 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+          <characteristics>
+            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3&quot;</characteristic>
+            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
+            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f9c7-234a-b561-566d" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark, and before removing it from play. On a 6 it expldes, and each unit within 6&quot; suffers D3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="63fb-58b0-fe2f-859d" name="Null-Maiden Rhino" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+          <characteristics>
+            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
+            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
+            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bf81-be82-621d-6b5e" name="Smoke Launchers" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
+        <infoLink id="63eb-464f-73b0-b1b0" name="Null Maidens" hidden="false" targetId="1d9b-613f-0500-05ef" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8609-90d5-c659-e642" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a58c-7157-6cb1-1496" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="8f4e-78a1-a877-65fc" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="6960-b276-92d2-fa7e" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71aa-a020-70eb-f7f1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2f-2483-f5ee-63c5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c8e8-860a-79b5-ce62" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5597-4d2b-05e5-25bd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="65.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7392-e278-494b-8b66" name="Vigilators" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="4">
+          <conditions>
+            <condition field="selections" scope="7392-e278-494b-8b66" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="a9ef-ca40-f4eb-ad2b" name="New InfoLink" hidden="false" targetId="68d7-b6a1-b037-6183" type="rule"/>
+        <infoLink id="43b1-e243-98ca-7093" name="Witch Hunters" hidden="false" targetId="bbdc-1bda-2f32-9369" type="rule"/>
+        <infoLink id="cfc7-8eef-2914-1b37" name="Null Maidens" hidden="false" targetId="1d9b-613f-0500-05ef" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8173-a712-8432-022a" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="7f8e-db7f-fcc8-bb04" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
+        <categoryLink id="1244-399e-7e66-5478" name="Faction: Astra Telepathica" hidden="false" targetId="be18-af79-8c70-633f" primary="false"/>
+        <categoryLink id="e18b-c0c9-82aa-9c82" name="Faction: Sisters of Silence" hidden="false" targetId="8bcf-a0bd-54ad-9531" primary="false"/>
+        <categoryLink id="a49b-56ba-2ae5-bf53" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="968b-abb4-551d-7635" name="Vigilators" hidden="false" targetId="dd65-0ed5-6aa3-0f9f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8cb6-d8a7-f681-40c5" name="Vigilator" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6418-960c-2693-069c" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="751c-4047-a63b-2227" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="30c4-06e9-85d1-de05" name="New InfoLink" hidden="false" targetId="51d5-499d-ed37-9100" type="profile">
+              <modifiers>
+                <modifier type="set" field="name" value="Vigilator"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="a01b-fe50-2ea7-8ff0" name="Executioner Greatblade" hidden="false" collective="false" import="true" targetId="c519-ed06-1c3c-02a9" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="dee7-debe-95c4-0f03" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6aab-d9a0-000f-7a21" name="Sister Superior" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59b1-575c-7024-00bd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9488-fcf4-e233-62a3" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="de36-cffd-bdd5-61e3" name="New InfoLink" hidden="false" targetId="a3b5-26be-117c-5dfa" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="384c-f7a5-a60e-8097" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
+            <entryLink id="f074-3e42-9ad7-12da" name="Executioner Greatblade" hidden="false" collective="false" import="true" targetId="c519-ed06-1c3c-02a9" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="221e-871c-7381-94b9" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="7c9b-f6a6-21aa-442e" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ce8-5cff-cc35-753d" name="Witchseekers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="5">
+          <conditions>
+            <condition field="selections" scope="7ce8-5cff-cc35-753d" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="7154-c494-e849-3c4a" name="New InfoLink" hidden="false" targetId="68d7-b6a1-b037-6183" type="rule"/>
+        <infoLink id="8bf8-9b25-8580-5684" name="New InfoLink" hidden="false" targetId="bbdc-1bda-2f32-9369" type="rule"/>
+        <infoLink id="247b-24eb-ee54-e430" name="Null Maidens" hidden="false" targetId="1d9b-613f-0500-05ef" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="77d1-ed79-e6f0-7ab3" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="2f3f-d90e-71d4-730a" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
+        <categoryLink id="cc6b-2cf8-1586-10da" name="Faction: Astra Telepathica" hidden="false" targetId="be18-af79-8c70-633f" primary="false"/>
+        <categoryLink id="7feb-7204-0ca0-e902" name="Faction: Sisters of Silence" hidden="false" targetId="8bcf-a0bd-54ad-9531" primary="false"/>
+        <categoryLink id="7532-7036-fef0-66a9" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="8ab5-9c2c-64d3-c8e1" name="Witchseekers" hidden="false" targetId="8f2a-01c6-005f-1866" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7f87-2fb3-f4d7-56b5" name="Witchseeker" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6306-760e-6eb6-0346" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d572-2ad4-65cc-5b10" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c6c1-2908-cd3f-59fe" name="New InfoLink" hidden="false" targetId="51d5-499d-ed37-9100" type="profile">
+              <modifiers>
+                <modifier type="set" field="name" value="Witchseeker"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="b7aa-8e4f-cccd-b749" name="Flamer" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4881-b4df-ce6c-2809" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f34-a41d-f406-1ff8" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2751-8119-8a3c-edea" name="New InfoLink" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="715f-85ad-1b89-8cb5" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5b1d-9fd8-9be9-5722" name="Sister Superior" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="88ad-b081-e382-f584" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6349-726e-b229-0932" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9c2f-bde9-a28b-2e44" name="New InfoLink" hidden="false" targetId="a3b5-26be-117c-5dfa" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="91da-92ad-d0e8-033a" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
+            <entryLink id="f3cd-47ae-169f-cfe8" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7603-5de5-91fe-2fb3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="700c-dcde-9222-ec5f" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c156-42fb-557a-18b5" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="2505-c214-95dd-85ab" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fde4-9464-39bc-8968" name="Psyk-Out Grenades" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f5e-9ffd-6488-6413" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="221b-7f1c-60ca-9a88" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="09ef-b060-3351-ab33" name="Psyk-Out Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D3</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon against a PSYKER or DAEMON unit, a hit roll of 6+ inflicts a mortal wound on the target and the attack sequence ends.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c519-ed06-1c3c-02a9" name="Executioner Greatblade" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a68f-050e-2ffa-6a9c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5efc-2dc2-0ea2-3421" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f9-28f5-6ff7-f920" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2774-af5a-b54b-7db8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2858-51c2-08df-5584" name="Executioner Greatblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="bbdc-1bda-2f32-9369" name="Witch Hunters" hidden="false">
+      <description>When resolving an attack made by a model in this unit against a PSYKER unit, you can re-roll the wound roll.</description>
+    </rule>
+    <rule id="68d7-b6a1-b037-6183" name="Psychic Abomination" hidden="false">
+      <description>This unit cannot be targeted or affected by psychic powers. When a Psychic test or a Deny the Witch test is taken for an enemy model, subtract 1 from the total for each unit from your army with this ability within 18&quot; of that model (to a maximum of -4).</description>
+    </rule>
+    <rule id="1d9b-613f-0500-05ef" name="Null Maidens" page="" hidden="false">
+      <description>If you have an IMPERIUM Warlord (excluding a FALLEN warlord), you can include this unit in a Vanguard Detachment. If you do so, that Detachment&apos;s HQ requirements are changed to 0-2 and its Command Benefits are changed to &quot;None&quot;.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="51d5-499d-ed37-9100" name="Sister" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a3b5-26be-117c-5dfa" name="Sister Superior" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="0748-53c2-7a8b-f6fc" name="Imperium - Inquisition" targetId="e373-3c0a-1185-46ea" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>
