@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="53e9d88f-7463-8c27-fe67-e1a0d1ed0287" name="Imperium - Astra Militarum" revision="273" battleScribeVersion="2.03" authorName="Jon K, Joe B" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @_alphalas, @theawesomesauce" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="5335-9d49-c85e-4817" gameSystemRevision="129" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="718b-d1a3-7bef-4a1a" name="Imperium - Astra Militarum" revision="273" battleScribeVersion="2.03" authorName="Jon K, Joe B" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @_alphalas, @theawesomesauce" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="5335-9d49-c85e-4817" gameSystemRevision="130" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="5d51-9773-2f0e-e82a" name="Aradia Madellan" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -11687,7 +11687,7 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
-    <catalogueLink id="347c-c2dd-b902-3ba5" name="Imperium - Astra Militarum - Library" targetId="a2d9-e3b7-13cc-6f15" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="347c-c2dd-b902-3ba5" name="Imperium - Astra Militarum - Library" targetId="0fb1-d333-b98b-e7bb" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="e5e0-7ccb-af75-8e09" name="Imperium - Officio Assassinorum" targetId="9232-0787-e942-91c5" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
